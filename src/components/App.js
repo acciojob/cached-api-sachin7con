@@ -35,7 +35,7 @@ const App = () => {
       {/*ONS Do not remove the main div */}
       <ul>
         {loading ? (<p>Loading...</p>) : (memoizedData.map((fd, id) => (
-          <li key={id}><h3>{fd.title}</h3> <p>{fd.body}</p></li>
+          <li key={id}><h4>{fd.title}</h4> <p>{fd.body}</p></li>
         )))}
       </ul>
     </div>
